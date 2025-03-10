@@ -34,5 +34,5 @@ int find_arithmetic_mean(int* m, int size) {
 		else
 			num += 1;
 	}
-	return sum / (size - num+1);
+	return sum / (size - num + 1);
 }
