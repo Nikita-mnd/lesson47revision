@@ -1,0 +1,1 @@
+int find_arithmetic_mean(int* m, int size);
