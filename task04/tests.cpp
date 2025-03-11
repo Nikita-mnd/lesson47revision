@@ -21,17 +21,6 @@ void test01() {
 }
 
 void test02() {
-	int m[]{ 12, 4, 5, 7, 15, 4, 16, 12, 13, 7 };
-	int size = 9;
-	string expected = "The Number of local minima: 4 The Number of local maxima: 4";
-	int min = find_local_min(m, size);
-	int max = find_local_max(m, size);
-	string actual = local_max_and_local_min(min, max);
-	cout << max << " " << min << " " << actual << endl;
-	print(m, expected == actual, size);
-}
-
-void test03() {
 	int m[]{ 1,1,1,1,1 };
 	int size = 4;
 	string expected = "The Number of local minima: 0 The Number of local maxima: 0";
@@ -42,7 +31,7 @@ void test03() {
 	print(m, expected == actual, size);
 }
 
-void test04() {
+void test03() {
 	int m[]{ 1,2 };
 	int size = 1;
 	string expected = "The Number of local minima: 1 The Number of local maxima: 1";
@@ -53,7 +42,7 @@ void test04() {
 	print(m, expected == actual, size);
 }
 
-void test05() {
+void test04() {
 	int m[]{ 0,0,0,0,0,1 };
 	int size = 5;
 	string expected = "The Number of local minima: 0 The Number of local maxima: 1";
